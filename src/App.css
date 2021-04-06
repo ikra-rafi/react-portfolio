@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
-  --primary-blue: #037272;
+  --primary-green: #037272;
+  --primary-blue: #1b1f4c; 
+  --primary-yellow: #fdc214;
 }
 
 body {
@@ -26,13 +28,24 @@ nav ul li {
 }
 
 .navbar-nav > li > a {
-  color: var(--primary-blue) !important; 
+  color: var(--primary-green) !important; 
   margin-right: 0.75rem;
   margin-left: 0.75rem;
+  border-top: 0.1875rem solid var(--primary-blue);
 }
 
 .navbar-brand {
   max-width: 17.25rem;
   padding: 0 !important;
   height: 6rem !important;
+}
+
+.navbar-nav > li > a.active, 
+.navbar-nav > li > a.active:focus {
+border-top: 0.1875rem solid var(--primary-yellow);
+
+}
+
+.navbar-nav > li > a:hover {
+ border-top: 0.1875rem solid var(--primary-yellow);
 }
