@@ -5,7 +5,9 @@
   --primary-green: #037272;
   --primary-blue: #1b1f4c; 
   --primary-yellow: #fdc214;
-  --primary-white: #
+  --primary-white: #edebd9;
+  --secondary-yellow: #fccf19;
+  --secondary-green: #00848c;
 }
 
 body {
@@ -69,5 +71,13 @@ border-top: 0.1875rem solid var(--primary-yellow);
   text-align: center;
 }
 .main-info h1 {
-  color: var
+  color: var(--primary-white);
+  text-transform: uppercase;
+
+}
+
+/* Typed Text */
+.typed-text {
+  font-size:  2rem;
+  color: var(--primary-white);
 }
