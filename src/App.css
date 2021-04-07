@@ -14,6 +14,7 @@ body {
   font-family: 'Noto Serif', serif !important;
 }
 
+/* ********************** NAVIGATION ************************ */
 /* Navbar */
 nav {
   z-index: 2;
@@ -63,6 +64,7 @@ border-top: 0.1875rem solid var(--primary-yellow);
  border-top: 0.1875rem solid var(--primary-yellow);
 }
 
+/* ********************** HEADER ************************ */
 /* Header */
 
 .header-wraper {
@@ -92,7 +94,7 @@ border-top: 0.1875rem solid var(--primary-yellow);
   font-size: 4rem;
 }
 
-
+/* ********************** TYPED TEXT ************************ */
 /* Typed Text */
 .typed-text {
   font-size:  1.75rem;
@@ -126,6 +128,7 @@ border-top: 0.1875rem solid var(--primary-yellow);
 
 }
 
+/* ********************** PARTICLES JS ************************ */
 /* Particles JS for Hero Image */
 
 .tsparticles-canvas-el {
@@ -149,7 +152,7 @@ border-top: 0.1875rem solid var(--primary-yellow);
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
 }
 
 .profile-img {
@@ -168,4 +171,17 @@ border-top: 0.1875rem solid var(--primary-yellow);
   .profile-img {
     width: 10rem;
   }
+}
+
+/* ********************** SERVICES ************************ */
+
+.services {
+  text-align: center;
+  padding-bottom: 2rem;
+  background: var(--primary-white);
+}
+
+.services h1 {
+  color: var(--primary-green); 
+  text-transform: uppercase;
 }
