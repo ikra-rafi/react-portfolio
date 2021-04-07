@@ -6,6 +6,9 @@ import foodastic from "../images/foodastic.png";
 import petocracy from "../images/petocracy.png";
 import weather from "../images/weather-app.png";
 import quiz from "../images/wrongquiz.png";
+// Font Awesome Imports
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
 
 const Portfolio = () => {
     return (
@@ -16,16 +19,21 @@ const Portfolio = () => {
                     <div className="portfolio-image-box">
                     <img className="portfolio-image" src={petocracy} alt="Petocracy App" />
                     <div className="overflow"></div>
+                    <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                 </div>
                 {/* - */}
                 <div className="portfolio-image-box">
                     <img className="portfolio-image" src={foodastic} alt="Foodastic App" />
                     <div className="overflow"></div>
+                    <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+
                 </div>
                 {/* - */}
                 <div className="portfolio-image-box">
                     <img className="portfolio-image" src={quiz} alt="State Capital Quiz App" />
                     <div className="overflow"></div>
+                    <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+
                 </div>
                
                 {/* - */}
@@ -33,21 +41,29 @@ const Portfolio = () => {
                 <div className="portfolio-image-box">
                     <img className="portfolio-image" src={budget} alt="Budget Tracking App" />
                     <div className="overflow"></div>
+                    <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+
                 </div>
                 {/* - */}
                 <div className="portfolio-image-box">
                     <img className="portfolio-image" src={burger} alt="Burger Logger App" />
                     <div className="overflow"></div>
+                    <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+
                 </div>
                 {/* - */}
                 <div className="portfolio-image-box">
                     <img className="portfolio-image" src={fitness} alt="Fitness Tracking App" />
                     <div className="overflow"></div>
+                    <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+
                 </div>
                 {/* - */}
                 <div className="portfolio-image-box">
                     <img className="portfolio-image" src={weather} alt="Weather App" />
                     <div className="overflow"></div>
+                    <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+
                 </div>
                 {/* - */}
                 </div>
