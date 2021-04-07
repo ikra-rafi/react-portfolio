@@ -12,7 +12,7 @@ function Services() {
                         <div className="col-md-3 col-sm-6">
                             <div className="box">
                             <div className="circle">
-                                <FontAwesomeIcon icon={faPaintBrush} size="2x"/>
+                                <FontAwesomeIcon className="icon" icon={faPaintBrush} size="2x"/>
                                 </div>
                                 <h3>Graphic Design</h3>
                                 <p>I have the ability to create a full brand identity for you and your company with my design and coding techniques.</p>
@@ -22,7 +22,7 @@ function Services() {
                         <div className="col-md-3 col-sm-6">
                             <div className="box">
                                 <div className="circle">
-                                <FontAwesomeIcon icon={faDesktop} size="2x"/>
+                                <FontAwesomeIcon className="icon" icon={faDesktop} size="2x"/>
                                 </div>
                                 <h3>Web Design</h3>
                                 <p>With my design background, I approach each project individually and focus 
@@ -34,7 +34,7 @@ function Services() {
                         <div className="col-md-3 col-sm-6">
                             <div className="box">
                             <div className="circle">
-                                <FontAwesomeIcon icon={faFileCode} size="2x"/>
+                                <FontAwesomeIcon className="icon" icon={faFileCode} size="2x"/>
                                 </div>
                                 <h3>Web Development</h3>
                                 <p>Your wish is my command. I can bring your concept to full fruition.</p>
@@ -45,7 +45,7 @@ function Services() {
                         <div className="col-md-3 col-sm-6">
                             <div className="box">
                             <div className="circle">
-                                <FontAwesomeIcon icon={faGoogle} size="2x"/>
+                                <FontAwesomeIcon className="icon" icon={faGoogle} size="2x"/>
                                 </div>
                                 <h3>Google Analytics</h3>
                                 <p>Using your website's metrics, we can drive more traffic to your site.</p>
