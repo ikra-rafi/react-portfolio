@@ -9,14 +9,35 @@ import quiz from "../images/wrongquiz.png";
 // Font Awesome Imports
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
+//  React POP UP BOX
+import { PopupboxManager, PopupboxContainer } from "react-popupbox";
+
 
 const Portfolio = () => {
+
+// Petocracy
+const openPopupboxPetocracy = () => {
+    const content = (
+    <>
+    <img className="portfolio-image-popupbox" src = {petocracy} alt="Petocracy App" />
+    <p>Description</p>
+    <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/ikra-rafi/group1_project2")}
+    >https://github.com/ikra-rafi/group1_project2</a>
+    </>
+)
+    PopupboxManager.open({content})
+}
+
+const popupboxConfigPetrocracy ={
+
+}
+
     return (
         <div className= "portfolio-wrapper">
             <div className= "container">
                 <h1 className="text-uppercase text-center py">Portfolio</h1>
                 <div className="image-box-wrapper row justify-content-center">
-                    <div className="portfolio-image-box">
+                    <div className="portfolio-image-box" onClick={openPopupboxPetocracy}>
                     <img className="portfolio-image" src={petocracy} alt="Petocracy App" />
                     <div className="overflow"></div>
                     <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
@@ -68,6 +89,7 @@ const Portfolio = () => {
                 {/* - */}
                 </div>
             </div>
+            <PopupboxContainer {...popupboxConfigPetrocracy} />
             </div>
     )
 }
