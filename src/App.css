@@ -211,6 +211,7 @@ border-top: 0.1875rem solid var(--secondary-pink);
   padding: 0.625rem;
   margin-bottom: 1.875rem;
   background: var(--secondary-white);
+  transition: 0.3s ease-in-out;
 }
 
 .services .box:hover {
@@ -315,4 +316,38 @@ border-top: 0.1875rem solid var(--secondary-pink);
   
   }
 
+}
+
+/* ********************** Portfolio ************************ */
+
+.portfolio-wrapper {
+  background: var(--primary-white);
+  padding: 3rem 0;
+
+}
+
+.portfolio-image {
+  width: 17rem;
+  border: 1px solid var(--secondary-pink);
+  padding: 0 0.5rem;
+
+}
+
+.portfolio-image-box {
+  position: relative;
+  margin: 2rem;
+
+}
+
+/* ********************** OverFlow ************************ */
+
+.overflow {
+  position:absolute;
+  opacity: 0;
+  background: var(--primary-black);
+  width: 15rem;
+  height: 8rem;
+  top: 0;
+  border: 1px solid var(--secondary-pink);
+  cursor: pointer;
 }
