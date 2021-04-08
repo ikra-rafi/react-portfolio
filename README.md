@@ -5,21 +5,22 @@ This project was created with node.js and react. By using multiple react depende
 
 ## Links
 ### GitHub
+https://github.com/ikra-rafi/react-portfolio
 ### Deployed Link
 
 ## Screenshots
 ### Header 
-![alt text](http://url/to/img.png)
+![header](https://github.com/ikra-rafi/react-portfolio/blob/main/public/images/header.png)
 ### About Me
-![alt text](http://url/to/img.png)
+![About Me](https://github.com/ikra-rafi/react-portfolio/blob/main/public/images/aboutme.png)
 ### Services
-![alt text](http://url/to/img.png)
+![Services](https://github.com/ikra-rafi/react-portfolio/blob/main/public/images/services.png)
 ### Resume/Experience
-![alt text](http://url/to/img.png)
+![Resume/Experience](https://github.com/ikra-rafi/react-portfolio/blob/main/public/images/resume.png)
 ### Portfolio
-![alt text](http://url/to/img.png)
+![Portfolio](https://github.com/ikra-rafi/react-portfolio/blob/main/public/images/portfolio.png)
 ### Contact Me and Footer
-![alt text](http://url/to/img.png)
+![Contact Me and Footer](https://github.com/ikra-rafi/react-portfolio/blob/main/public/images/contact-footer.png)
 
 
 
