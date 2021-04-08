@@ -11,7 +11,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
 //  React POP UP BOX
 import { PopupboxManager, PopupboxContainer } from "react-popupbox";
-
+import "react-popupbox/dist/react-popupbox.css";
 
 const Portfolio = () => {
 
@@ -21,14 +21,181 @@ const openPopupboxPetocracy = () => {
     <>
     <img className="portfolio-image-popupbox" src = {petocracy} alt="Petocracy App" />
     <p>Description</p>
-    <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/ikra-rafi/group1_project2")}
+    <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/ikra-rafi/group1_project2", "_blank")}
     >https://github.com/ikra-rafi/group1_project2</a>
+    <br></br>
+    <b>Deployed:</b> <a a className="hyper-link" onClick={() => window.open("https://immense-coast-50151.herokuapp.com", "_blank")}
+    >https://immense-coast-50151.herokuapp.com</a>
     </>
 )
     PopupboxManager.open({content})
-}
+};
 
-const popupboxConfigPetrocracy ={
+const popupboxConfigPetocracy = {
+    titleBar: {
+        enable: true,
+        text: "Petocracy App"
+    },
+    fadeIn: true,
+    fadeInSpeed: 500,
+
+};
+
+// Foodtastic
+const openPopupboxFoodtastic = () => {
+    const content = (
+    <>
+    <img className="portfolio-image-popupbox" src = {foodastic} alt="Foodastic App" />
+    <p>Description</p>
+    <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/ikra-rafi/group1_project2", "_blank")}
+    >https://github.com/ikra-rafi/project1_group7</a>
+    <br></br>
+    <b>Deployed:</b> <a a className="hyper-link" onClick={() => window.open("https://ikra-rafi.github.io/project1_group7/", "_blank")}
+    >https://ikra-rafi.github.io/project1_group7/</a>
+    </>
+)
+    PopupboxManager.open({content})
+};
+
+const popupboxConfigFoodtastic = {
+    titleBar: {
+        enable: true,
+        text: "Foodastic App"
+    },
+    fadeIn: true,
+    fadeInSpeed: 500,
+
+};
+
+
+// Quiz
+const openPopupboxQuiz = () => {
+    const content = (
+    <>
+    <img className="portfolio-image-popupbox" src = {quiz} alt="State Capital App" />
+    <p>Description</p>
+    <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/ikra-rafi/quizHW4", "_blank")}
+    >https://github.com/ikra-rafi/quizHW4</a>
+    <br></br>
+    <b>Deployed:</b> <a className="hyper-link" onClick={() => window.open("https://ikra-rafi.github.io/quizHW4/", "_blank")}
+    >https://ikra-rafi.github.io/quizHW4/</a>
+    </>
+)
+    PopupboxManager.open({content})
+};
+
+const popupboxConfigQuiz = {
+    titleBar: {
+        enable: true,
+        text: "Quiz App"
+    },
+    fadeIn: true,
+    fadeInSpeed: 500,
+
+};
+
+// Budget Tracker
+const openPopupboxBudget = () => {
+    const content = (
+    <>
+    <img className="portfolio-image-popupbox" src = {budget} alt="Budget Tracker App" />
+    <p>Description</p>
+    <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/ikra-rafi/budget", "_blank")}
+    >https://github.com/ikra-rafi/budget</a>
+    <br></br>
+    <b>Deployed:</b> <a className="hyper-link" onClick={() => window.open("https://secret-mountain-01555.herokuapp.com/", "_blank")}
+    >https://secret-mountain-01555.herokuapp.com/</a>
+    </>
+)
+    PopupboxManager.open({content})
+};
+
+const popupboxConfigBudget = {
+    titleBar: {
+        enable: true,
+        text: "Budget Tracking App"
+    },
+    fadeIn: true,
+    fadeInSpeed: 500,
+
+};
+
+// Burger Logger App
+const openPopupboxBurger = () => {
+    const content = (
+    <>
+    <img className="portfolio-image-popupbox" src = {burger} alt="Burger Logger App" />
+    <p>Description</p>
+    <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/ikra-rafi/burger-app", "_blank")}
+    >https://github.com/ikra-rafi/burger-app</a>
+    <br></br>
+    <b>Deployed:</b> <a className="hyper-link" onClick={() => window.open("https://burger-10000.herokuapp.com/", "_blank")}
+    >https://burger-10000.herokuapp.com/</a>
+    </>
+)
+    PopupboxManager.open({content})
+};
+
+const popupboxConfigBurger = {
+    titleBar: {
+        enable: true,
+        text: "Burger Logger App"
+    },
+    fadeIn: true,
+    fadeInSpeed: 500,
+
+};
+
+
+// Fitness Tracking App
+const openPopupboxFitness = () => {
+    const content = (
+    <>
+    <img className="portfolio-image-popupbox" src = {fitness} alt="Fitness Tracking App" />
+    <p>Description</p>
+    <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/ikra-rafi/workout-tracker", "_blank")}
+    >https://github.com/ikra-rafi/workout-tracker</a>
+    <br></br>
+    <b>Deployed:</b> <a className="hyper-link" onClick={() => window.open("https://arcane-caverns-33278.herokuapp.com/", "_blank")}
+    >https://arcane-caverns-33278.herokuapp.com/</a>
+    </>
+)
+    PopupboxManager.open({content})
+};
+
+const popupboxConfigFitness = {
+    titleBar: {
+        enable: true,
+        text: "Fitness Tracking App"
+    },
+    fadeIn: true,
+    fadeInSpeed: 500,
+
+};
+
+// Weather App
+const openPopupboxWeather = () => {
+    const content = (
+    <>
+    <img className="portfolio-image-popupbox" src = {weather} alt="Weather App" />
+    <p>Description</p>
+    <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/ikra-rafi/weatherapp", "_blank")}
+    >https://github.com/ikra-rafi/weatherapp</a>
+    <br></br>
+    <b>Deployed:</b> <a className="hyper-link" onClick={() => window.open("https://ikra-rafi.github.io/weatherapp/", "_blank")}
+    >https://ikra-rafi.github.io/weatherapp/</a>
+    </>
+)
+    PopupboxManager.open({content})
+};
+
+const popupboxConfigWeather = {
+    titleBar: {
+        enable: true,
+        text: "Weather App"
+    },
+    fadeIn: true,
+    fadeInSpeed: 500,
 
 }
 
@@ -43,14 +210,14 @@ const popupboxConfigPetrocracy ={
                     <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                 </div>
                 {/* - */}
-                <div className="portfolio-image-box">
+                <div className="portfolio-image-box" onClick={openPopupboxFoodtastic}>
                     <img className="portfolio-image" src={foodastic} alt="Foodastic App" />
                     <div className="overflow"></div>
                     <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
 
                 </div>
                 {/* - */}
-                <div className="portfolio-image-box">
+                <div className="portfolio-image-box" onClick={openPopupboxQuiz}>
                     <img className="portfolio-image" src={quiz} alt="State Capital Quiz App" />
                     <div className="overflow"></div>
                     <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
@@ -59,28 +226,28 @@ const popupboxConfigPetrocracy ={
                
                 {/* - */}
                 
-                <div className="portfolio-image-box">
+                <div className="portfolio-image-box" onClick={openPopupboxBudget}>
                     <img className="portfolio-image" src={budget} alt="Budget Tracking App" />
                     <div className="overflow"></div>
                     <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
 
                 </div>
                 {/* - */}
-                <div className="portfolio-image-box">
+                <div className="portfolio-image-box" onClick={openPopupboxBurger}>
                     <img className="portfolio-image" src={burger} alt="Burger Logger App" />
                     <div className="overflow"></div>
                     <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
 
                 </div>
                 {/* - */}
-                <div className="portfolio-image-box">
+                <div className="portfolio-image-box" onClick={openPopupboxFitness}>
                     <img className="portfolio-image" src={fitness} alt="Fitness Tracking App" />
                     <div className="overflow"></div>
                     <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
 
                 </div>
                 {/* - */}
-                <div className="portfolio-image-box">
+                <div className="portfolio-image-box" onClick={openPopupboxWeather}>
                     <img className="portfolio-image" src={weather} alt="Weather App" />
                     <div className="overflow"></div>
                     <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
@@ -89,7 +256,13 @@ const popupboxConfigPetrocracy ={
                 {/* - */}
                 </div>
             </div>
-            <PopupboxContainer {...popupboxConfigPetrocracy} />
+            <PopupboxContainer {...popupboxConfigPetocracy} />
+            <PopupboxContainer {...popupboxConfigBudget} />
+            <PopupboxContainer {...popupboxConfigQuiz} />
+            <PopupboxContainer {...popupboxConfigFoodtastic} />
+            <PopupboxContainer {...popupboxConfigBurger} />
+            <PopupboxContainer {...popupboxConfigFitness} />
+            <PopupboxContainer {...popupboxConfigWeather} />
             </div>
     )
 }
