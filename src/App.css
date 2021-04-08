@@ -326,6 +326,10 @@ border-top: 0.1875rem solid var(--secondary-pink);
 
 }
 
+.portfolio-wrapper h1 {
+  color: var(--secondary-pink);
+}
+
 .portfolio-image {
   width: 17rem;
   border: 1px solid var(--secondary-pink);
@@ -389,4 +393,32 @@ border-top: 0.1875rem solid var(--secondary-pink);
 .hyper-link:hover {
   color: var(--secondary-pink);
   
+}
+
+/* ********************** \Media ************************ */
+/* Media */
+@media(max-width:768px) {
+  .portfolio-image-popupbox {
+    width: 100%;
+  }
+}
+
+@media(max-height: 570px) {
+  .popupbox-wrapper {
+    height: 100%;
+  }
+
+  .portfolio-image-popupbox {
+    width: 50%;
+  }
+}
+
+@media(max-height: 280px) {
+  .popupbox-wrapper {
+    height: 90%;
+  }
+
+  .portfolio-image-popupbox {
+    width: 30%;
+  }
 }
