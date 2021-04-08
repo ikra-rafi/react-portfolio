@@ -20,7 +20,7 @@ const openPopupboxPetocracy = () => {
     const content = (
     <>
     <img className="portfolio-image-popupbox" src = {petocracy} alt="Petocracy App" />
-    <p>Description</p>
+    <p>Donate to animals in need or Volunteer for animals in need</p>
     <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/ikra-rafi/group1_project2", "_blank")}
     >https://github.com/ikra-rafi/group1_project2</a>
     <br></br>
@@ -51,7 +51,7 @@ const openPopupboxFoodtastic = () => {
     const content = (
     <>
     <img className="portfolio-image-popupbox" src = {foodastic} alt="Foodastic App" />
-    <p>Description</p>
+    <p>Foodtastic, a revolutionary search engine for foodies</p>
     <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/ikra-rafi/group1_project2", "_blank")}
     >https://github.com/ikra-rafi/project1_group7</a>
     <br></br>
@@ -83,7 +83,7 @@ const openPopupboxQuiz = () => {
     const content = (
     <>
     <img className="portfolio-image-popupbox" src = {quiz} alt="State Capital App" />
-    <p>Description</p>
+    <p>Test your skills on the U.S. captials</p>
     <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/ikra-rafi/quizHW4", "_blank")}
     >https://github.com/ikra-rafi/quizHW4</a>
     <br></br>
@@ -114,7 +114,7 @@ const openPopupboxBudget = () => {
     const content = (
     <>
     <img className="portfolio-image-popupbox" src = {budget} alt="Budget Tracker App" />
-    <p>Description</p>
+    <p>Need to track your spending? Use this Budget Tracker</p>
     <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/ikra-rafi/budget", "_blank")}
     >https://github.com/ikra-rafi/budget</a>
     <br></br>
@@ -145,7 +145,7 @@ const openPopupboxBurger = () => {
     const content = (
     <>
     <img className="portfolio-image-popupbox" src = {burger} alt="Burger Logger App" />
-    <p>Description</p>
+    <p>Like burgers? Log it!</p>
     <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/ikra-rafi/burger-app", "_blank")}
     >https://github.com/ikra-rafi/burger-app</a>
     <br></br>
@@ -177,7 +177,7 @@ const openPopupboxFitness = () => {
     const content = (
     <>
     <img className="portfolio-image-popupbox" src = {fitness} alt="Fitness Tracking App" />
-    <p>Description</p>
+    <p>Trying to keep track of your weekly fitness routine?</p>
     <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/ikra-rafi/workout-tracker", "_blank")}
     >https://github.com/ikra-rafi/workout-tracker</a>
     <br></br>
@@ -208,7 +208,7 @@ const openPopupboxWeather = () => {
     const content = (
     <>
     <img className="portfolio-image-popupbox" src = {weather} alt="Weather App" />
-    <p>Description</p>
+    <p>Know the weather before you go outside!</p>
     <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/ikra-rafi/weatherapp", "_blank")}
     >https://github.com/ikra-rafi/weatherapp</a>
     <br></br>
