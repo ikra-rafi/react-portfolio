@@ -1,4 +1,37 @@
-# Getting Started with Create React App
+# React Portfolio
+
+## Description
+This project was created with node.js and react. By using multiple react dependencies and a bootstrap framework, I was able to create a stylish and functional website with my latest bootcamp projects. This used multiple components to create a one-page portfolio.
+
+## Links
+### GitHub
+### Deployed Link
+
+## Screenshots
+### Header 
+![alt text](http://url/to/img.png)
+### About Me
+![alt text](http://url/to/img.png)
+### Services
+![alt text](http://url/to/img.png)
+### Resume/Experience
+![alt text](http://url/to/img.png)
+### Portfolio
+![alt text](http://url/to/img.png)
+### Contact Me and Footer
+![alt text](http://url/to/img.png)
+
+
+
+
+
+
+
+
+
+
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
