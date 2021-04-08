@@ -7,6 +7,7 @@ This project was created with node.js and react. By using multiple react depende
 ### GitHub
 https://github.com/ikra-rafi/react-portfolio
 ### Deployed Link
+https://ikra-rafi.github.io/react-portfolio/
 
 ## Screenshots
 ### Header 
