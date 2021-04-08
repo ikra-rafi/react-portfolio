@@ -56,7 +56,7 @@ nav ul li {
 }
 
 .navbar-nav > li > a.active, 
-.navbar-nav > li > a.active:focus {
+.navbar-nav > li > a:focus {
 border-top: 0.1875rem solid var(--secondary-pink);
 
 }
@@ -73,7 +73,7 @@ border-top: 0.1875rem solid var(--secondary-pink);
   background: url(herohome.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -360,12 +360,16 @@ border-top: 0.1875rem solid var(--secondary-pink);
 
 }
 
+.popupbox-wrapper {
+  margin-top: 5rem;
+}
+
 /* ********************** OverFlow ************************ */
 
 .overflow {
   position:absolute;
    opacity: 0;
-   background: var(--primary-black);
+   background: var(--primary-pink);
    width: 17rem;
    height: 9rem;
    top: 0;

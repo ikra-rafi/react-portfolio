@@ -19,7 +19,7 @@ const userID = "user_Wj0xmwNiXLZtO8wmRMv2H";
       }
 
     return (
-        <div className="contacts">
+        <div id="contacts" className="contacts">
         <div className="text-center">
            <h1>Contact me</h1> 
            <p>Have a project in mind? Fill out the form below to get started.</p>

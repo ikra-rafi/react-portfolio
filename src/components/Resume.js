@@ -3,7 +3,7 @@ import resume from "../images/Rafi_Ikra_Resume.pdf";
 
 const Resume = () => {
     return (
-        <div className="experience">
+        <div id="resume" className="experience">
             <div className="d-flex justify-content-center my-5">
                 <h1>Experience</h1>
                 

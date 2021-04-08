@@ -4,7 +4,7 @@ import Particles from "react-particles-js";
 
 const Header = () => {
     return (
-       <div className="header-wraper">
+       <div id="home" className="header-wraper">
            <div className="main-info">
                <h1>Welcome to my portfolio</h1>
                <Typed
