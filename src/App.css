@@ -90,7 +90,7 @@ border-top: 0.1875rem solid var(--secondary-pink);
   z-index: 1;
 }
 .main-info h1 {
-  color: var(--primary-white);
+  color: var(--primary-pink);
   text-transform: uppercase;
   font-size: 4rem;
 }
@@ -117,7 +117,7 @@ border-top: 0.1875rem solid var(--secondary-pink);
   text-transform: uppercase;
   border-radius: 0;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
-  color: var(--primary-white);
+  color: var(--secondary-white);
   margin: 2rem;
 }
 
@@ -292,6 +292,23 @@ border-top: 0.1875rem solid var(--secondary-pink);
   margin-top: 0.3125rem;
   color: var(--primary-black);
   font-weight: 700;
+}
+
+.btn-main-offer-resume {
+  border: 1px solid var(--primary-green);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--secondary-pink);
+  margin: 2rem;
+}
+
+.btn-main-offer-resume:hover {
+  text-decoration: none;
+  background-color: var(--primary-green);
+  color: var(--primary-white);
+  transition: .2s ease-in-out;
+
 }
 
 /* media */
@@ -524,4 +541,28 @@ textarea.form-control {
   .contacts p {
     padding: 0 0.4rem;
   }
+}
+
+/* ********************** Footer ************************ */
+.footer {
+  background: var(--primary-black);
+  color: var(--primary-white);
+  padding: 3rem;
+  
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--secondary-pink);
+}
+
+.footer a:hover{
+  text-decoration: none;
+  color: var(--secondary-green);
+  cursor: pointer;
+
+}
+
+.footer p {
+  margin-bottom: 0;
 }

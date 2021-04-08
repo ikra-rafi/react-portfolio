@@ -1,12 +1,15 @@
 import React from "react";
+import resume from "../images/Rafi_Ikra_Resume.pdf";
 
 const Resume = () => {
     return (
         <div className="experience">
             <div className="d-flex justify-content-center my-5">
                 <h1>Experience</h1>
+                
             </div>
             <div className="container experience-wrapper">
+            <a href={resume} className="btn-main-offer-resume">Resume</a>
                 <div className="timeline-block timeline-block-right">
                     <div className="marker"></div>
                 <div className="timeline-content">

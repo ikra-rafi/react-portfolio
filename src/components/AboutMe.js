@@ -21,6 +21,7 @@ const AboutMe = () => {
                 The main functions of my responsibilities are cms, print and interactive graphics. Ever since the pandemic, I wanted to explore
                 more options for creativity and found myself enrolling at a certificate program at George Washington University for Full Stack Development. 
                 </p>
+                <p>Connect with me on <a href="https://github.com/ikra-rafi">GitHub</a> and <a href="https://www.linkedin.com/in/ikra-rafi-a4ab9279/">LinkedIn</a>.</p>
             </div>
             </div>
         </div>
