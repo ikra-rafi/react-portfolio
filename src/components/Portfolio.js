@@ -28,7 +28,12 @@ const openPopupboxPetocracy = () => {
     >https://immense-coast-50151.herokuapp.com</a>
     </>
 )
-    PopupboxManager.open({content})
+PopupboxManager.open({ content });
+PopupboxManager.update({  content, config: {
+                      titleBar: {  text: "Petocracy App"  }
+      },
+});
+    
 };
 
 const popupboxConfigPetocracy = {
@@ -54,7 +59,12 @@ const openPopupboxFoodtastic = () => {
     >https://ikra-rafi.github.io/project1_group7/</a>
     </>
 )
-    PopupboxManager.open({content})
+PopupboxManager.open({ content });
+PopupboxManager.update({  content, config: {
+                      titleBar: {  text: "Foodastic App"  }
+      },
+});
+    
 };
 
 const popupboxConfigFoodtastic = {
@@ -81,7 +91,12 @@ const openPopupboxQuiz = () => {
     >https://ikra-rafi.github.io/quizHW4/</a>
     </>
 )
-    PopupboxManager.open({content})
+PopupboxManager.open({ content });
+PopupboxManager.update({  content, config: {
+                      titleBar: {  text: "Quiz App"  }
+      },
+});
+    
 };
 
 const popupboxConfigQuiz = {
@@ -107,7 +122,12 @@ const openPopupboxBudget = () => {
     >https://secret-mountain-01555.herokuapp.com/</a>
     </>
 )
-    PopupboxManager.open({content})
+PopupboxManager.open({ content });
+PopupboxManager.update({  content, config: {
+                      titleBar: {  text: "Budget Tracking App"  }
+      },
+});
+    
 };
 
 const popupboxConfigBudget = {
@@ -133,7 +153,12 @@ const openPopupboxBurger = () => {
     >https://burger-10000.herokuapp.com/</a>
     </>
 )
-    PopupboxManager.open({content})
+PopupboxManager.open({ content });
+PopupboxManager.update({  content, config: {
+                      titleBar: {  text: "Burger Logger App"  }
+      },
+});
+    
 };
 
 const popupboxConfigBurger = {
@@ -160,7 +185,12 @@ const openPopupboxFitness = () => {
     >https://arcane-caverns-33278.herokuapp.com/</a>
     </>
 )
-    PopupboxManager.open({content})
+PopupboxManager.open({ content });
+PopupboxManager.update({  content, config: {
+                      titleBar: {  text: "Fitness Tracking App"  }
+      },
+});
+    
 };
 
 const popupboxConfigFitness = {
@@ -186,7 +216,12 @@ const openPopupboxWeather = () => {
     >https://ikra-rafi.github.io/weatherapp/</a>
     </>
 )
-    PopupboxManager.open({content})
+PopupboxManager.open({ content });
+PopupboxManager.update({  content, config: {
+                      titleBar: {  text: "Weather App"  }
+      },
+});
+    
 };
 
 const popupboxConfigWeather = {
