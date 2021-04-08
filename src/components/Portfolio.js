@@ -83,7 +83,7 @@ const openPopupboxQuiz = () => {
     const content = (
     <>
     <img className="portfolio-image-popupbox" src = {quiz} alt="State Capital App" />
-    <p>Test your skills on the U.S. captials</p>
+    <p>Test your skills on the U.S. capitals</p>
     <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/ikra-rafi/quizHW4", "_blank")}
     >https://github.com/ikra-rafi/quizHW4</a>
     <br></br>
